@@ -1,11 +1,12 @@
-package Models;
+package com.cine.cine.Models;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 
 @Entity
-@Table(name="gender")
-public class Gender {
+@Table(name="director")
+public class Director {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -14,12 +15,12 @@ public class Gender {
     @Column(unique = true)
     private String nombre;
 
-    public Gender(Long id, String nombre) {
+    public Director(Long id, String nombre) {
         this.id = id;
         this.nombre = nombre;
     }
 
-    public Gender() {
+    public Director() {
     }
 
     public Long getId() {

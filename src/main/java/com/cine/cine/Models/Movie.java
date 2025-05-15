@@ -1,4 +1,4 @@
-package Models;
+package com.cine.cine.Models;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;

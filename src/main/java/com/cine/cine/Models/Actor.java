@@ -1,8 +1,7 @@
-package Models;
+package com.cine.cine.Models;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
-import jdk.jfr.Enabled;
 
 import java.util.HashSet;
 import java.util.Set;
